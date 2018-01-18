@@ -1,3 +1,3 @@
 {% include mathjax.html %}
 
-Markdown stuff...
+$$ -\frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2} $$
