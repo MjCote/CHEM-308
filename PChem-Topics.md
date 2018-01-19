@@ -21,9 +21,9 @@ We mentioned previously that eigenvectors and eigenvalues lie at the heart of th
 
 Consider an $$n\times n$$ matrix $$\mathbf{O}$$ that represents a quantum mechanical operator. Because the matrix is $$n\times n$$, there will be $$n$$ eigenvectors, each of which comprises $$n$$ elements. There will also be $$n$$ eigenvalues. (Not all matrices have this property, but all the matrices that represent quantum mechanical operators do.} We can express this mathematically with a compact equation:
 
-$$
+\begin{equation}\label{eig}
     \mathbf{O}\vec{v_i}=\lambda_i \vec{v_i}
-$$
+\end{equation}
 
 where the index $$i$$ simultanteously specifies a particular eigenvector $$v_i$$ and its matching eigenvalue, $$\lambda_i$$. We said $$\mathbf{O}$$ is an $$n\times n$$ matrix so we expect our set of  eigenvectors to include $$\vec{v_1}, \vec{v_2}, \dots \vec{v_n}$$, and the matching set of eigenvalues to be $$\lambda_1,\lambda_2, \dots \lambda_n$$. You should think of each eigenvector and its corresponding eigenvalue as a pair---a matched set.
 
