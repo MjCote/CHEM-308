@@ -55,17 +55,14 @@ We are now ready to apply all this to a (superficially) simple system. Every che
 
 
 We can now rewrite our eigenvector equation as it applies to this situation.  First we adopt the following mathematical notation:
-\begin{center}
-\begin{tabular}{|c|l|}
-  \hline
-% after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
-$$\mathbf{H}$$ & total energy operator, or hamiltonian operator \\ \hline
-  $$\vec{\alpha}$$ & vector representing a spin up electron \\
-  $$\lambda_{\alpha}$$ & energy of an electron in the spin up state  \\ \hline
-  $$\vec{\beta}$$ & vector representing a spin down electron \\
-  $$ \lambda_{\beta}$$& energy of an electron in the spin down state \\
-\hline\end{tabular}
-\end{center}
+
+|:----:|-----|
+| $$\mathbf{H}$$ | total energy operator, or hamiltonian operator |
+|  $$\vec{\alpha}$$ | vector representing a spin up electron |
+|  $$\lambda_{\alpha}$$ | energy of an electron in the spin up state  |
+|  $$\vec{\beta}$$ | vector representing a spin down electron |
+|  $$ \lambda_{\beta}$$ |  energy of an electron in the spin down state |
+
 The eigenvector-eigenvalue pairs are regrouped to emphasize they should be thought of together. Rewriting equation \ref{eig} separately for each of the two eigenvectors and eigenvalues yields  \begin{eqnarray}
     \mathbf{H}\vec{\alpha}&=\lambda_{\alpha}\vec{\alpha}\label{Hspin1}\\
    \mathbf{H}\vec{\beta}&=\lambda_{\beta}\vec{\beta}\label{Hspin2}
