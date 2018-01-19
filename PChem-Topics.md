@@ -31,7 +31,7 @@ We  said previously that in the quantum theory the states of a system are encode
 
 Equation \ref{eig} says that when a matrix multiplies one of its eigenvectors the effect is equivalent to multiplying that eigenvector by a scalar (which we call its eigenvalue). But scalar multiplication of a vector only changes the vector's length, not its orientation. (Causing a vector to point in exactly the opposite direction is not considered a change in orientation for our purposes.) We can therefore conclude that when a matrix representing an observable multiplies one of its eigenvectors, it leaves the orientation of the eigenvector unchanged. This, in turn, corresponds to leaving the quantum state unchanged. It is important to remember that _only_ if the vector is an eigenvector of the matrix does multiplication by the matrix leave the vector's orientation unchanged.  This is a _special case_.  In other cases, matrix multiplication changes vector orientation which implies a change in quantum state.
 
-Eigenvectors and eigenvalues are particularly important when we describe making a measurement on a quantum system.  Assume for concreteness that our $$n \times n$$ matrix $$\mathbf{O}$$ corresponds to an observable property,$$O$$, of the system.   We can now state one of the central ideas in quantum theory. Note that the newly introduced word _eigenstate_ simply refers to a state represented by an eigenvector:
+Eigenvectors and eigenvalues are particularly important when we describe making a measurement on a quantum system.  Assume for concreteness that our $$n \times n$$ matrix $$\mathbf{O}$$ corresponds to an observable property, $$O$$, of the system.   We can now state one of the central ideas in quantum theory. Note that the newly introduced word _eigenstate_ simply refers to a state represented by an eigenvector:
 
 > **_An idealized measurement of property $$O$$ of a system will yield one of the $$n$$ eigenvalues of the operator $$\mathbf{O}$$ as a  result. If the eigenvalue $$\lambda_{i}$$ is obtained, then after the measurement the system is left in the corresponding eigenstate,  represented by $$\vec{v}_{i}$$._**
 
@@ -41,17 +41,17 @@ So, if we choose to measure a system's energy, for example, the measurement will
 
 ### Applications
 #### Orbitals and Energy Levels
-You are already familiar with some of these concepts, but may not have encountered them expressed in the language of linear algebra.  For example, the energies of the levels available to an electron in a hydrogen atom are the \emph{eigenvalues} of the energy operator for a hydrogen atom.  The orbitals of the hydrogen atom are the states with well defined energy.  They are the \emph{energy eigenstates}---the states represented by eigenvectors of the hydrogen atom energy operator.
+You are already familiar with some of these concepts, but may not have encountered them expressed in the language of linear algebra.  For example, the energies of the levels available to an electron in a hydrogen atom are the _eigenvalues_ of the energy operator for a hydrogen atom.  The orbitals of the hydrogen atom are the states with well defined energy.  They are the _energy eigenstates_---the states represented by eigenvectors of the hydrogen atom energy operator.
 
 Since there are an infinite number of energy levels and orbitals, the energy operator for the hydrogen atom must be represented by an $$\infty\times \infty$$ matrix.  Fortunately we can usually truncate this matrix when tackling chemical problems, and focus on a small subset of the energy levels and orbitals (energy eigenvalues and eigenstates).
 
 #### Electron Spin
-We are now ready to apply all this to a (superficially) simple system. Every chemistry student has encountered the fact that electrons are said to have two spin states with well-defined energy, ``spin up'' and ``spin down.'' In the simplest level of description we think of these two states as corresponding to the particle's magnetic dipole being aligned with or against an external magnetic field, respectively.\footnote{Later we will refine this description of the orientation of a magnetic moment with respect to particular axes.} Because there are only two states with well-defined energy we can immediately draw the following conclusions:
+We are now ready to apply all this to a (superficially) simple system. Every chemistry student has encountered the fact that electrons are said to have two spin states with well-defined energy, "spin up" and "spin down." In the simplest level of description we think of these two states as corresponding to the particle's magnetic dipole being aligned with or against an external magnetic field, respectively. (Later we will refine this description of the orientation of a magnetic moment with respect to particular axes.) Because there are only two states with well-defined energy we can immediately draw the following conclusions:
 
-..* Energy in this system is represented by a 2 $$\times$$ 2 matrix
-..* There are two energy eigenvectors
-..* Each eigenvector has two elements
-..* There are two energy eigenvalues.
+  * Energy in this system is represented by a 2 $$\times$$ 2 matrix
+  * There are two energy eigenvectors
+  * Each eigenvector has two elements
+  * There are two energy eigenvalues.
 
 
 We can now rewrite our eigenvector equation as it applies to this situation.  First we adopt the following mathematical notation:
