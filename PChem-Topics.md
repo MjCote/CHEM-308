@@ -63,10 +63,13 @@ We can now rewrite our eigenvector equation as it applies to this situation.  Fi
 |  $$\vec{\beta}$$ | vector representing a spin down electron |
 |  $$ \lambda_{\beta}$$ |  energy of an electron in the spin down state |
 
-The eigenvector-eigenvalue pairs are regrouped to emphasize they should be thought of together. Rewriting equation \ref{eig} separately for each of the two eigenvectors and eigenvalues yields  \begin{eqnarray}
+Rewriting equation \ref{eig} separately for each of the two eigenvectors and eigenvalues yields  
+
+\begin{eqnarray}
     \mathbf{H}\vec{\alpha}&=\lambda_{\alpha}\vec{\alpha}\label{Hspin1}\\
    \mathbf{H}\vec{\beta}&=\lambda_{\beta}\vec{\beta}\label{Hspin2}
 \end{eqnarray}
+
 From the previous discussion we know that equation \ref{Hspin1} implies that if we place an electron in the spin state $$\vec{\alpha}$$ and measure its energy, we will definitely obtain the energy value $$\lambda_\alpha$$.  Equation \ref{Hspin2} implies that if the electron is in the state $$\vec{\beta}$$ and we measure its energy we can be 100\% confident that we will obtain the energy value $$\lambda_\beta$$.
 
 #### Graphical Representation
