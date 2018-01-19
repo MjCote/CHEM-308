@@ -19,13 +19,13 @@ The following discussion of the use of vectors to describe quantum states will r
 ### Eigenvectors and Eigenvalues
 We mentioned previously that eigenvectors and eigenvalues lie at the heart of the quantum theory. Let's revisit what we have mentioned already but go into a bit more detail.
 
-Consider an $$n\times n$$ matrix $$\mathbf{O}$$ that represents a quantum mechanical operator. Because the matrix is $$n\times n$$, there will be $$n$$ eigenvectors, each of which comprises $$n$$ elements. There will also be $$n$$ eigenvalues.\footnote{Not all matrices have this property, but all the matrices that represent quantum mechanical operators do.} We can express this mathematically with a compact equation:
+Consider an $$n\times n$$ matrix $$\mathbf{O}$$ that represents a quantum mechanical operator. Because the matrix is $$n\times n$$, there will be $$n$$ eigenvectors, each of which comprises $$n$$ elements. There will also be $$n$$ eigenvalues. (Not all matrices have this property, but all the matrices that represent quantum mechanical operators do.} We can express this mathematically with a compact equation:
 
 $$
     \mathbf{O}\vec{v_i}=\lambda_i \vec{v_i}
 $$
 
-where the index $$i$$ simultanteously specifies a particular eigenvector $$v_i$$ and its matching eigenvalue, $$\lambda_i$$. We said $$\mathbf{O}$$ is an $$n\times n$$ matrix so we expect our set of  eigenvectors to include $$\vec{v_1}$$, $$\vec{v_2}$$, \ldots $$\vec{v_n}$$, and the matching set of eigenvalues to be $$\lambda_1,\lambda_2 \dots \lambda_n$$. You should think of each eigenvector and its corresponding eigenvalue as a pair---a matched set.
+where the index $$i$$ simultanteously specifies a particular eigenvector $$v_i$$ and its matching eigenvalue, $$\lambda_i$$. We said $$\mathbf{O}$$ is an $$n\times n$$ matrix so we expect our set of  eigenvectors to include $$\vec{v_1}, \vec{v_2}, \ldots \vec{v_n}$$, and the matching set of eigenvalues to be $$\lambda_1,\lambda_2 \dots \lambda_n$$. You should think of each eigenvector and its corresponding eigenvalue as a pair---a matched set.
 
 We  said previously that in the quantum theory the states of a system are encoded as vectors. We will now be more specific.  It is actually the \emph{orientation} of a vector that encodes a state.  That is why it is important to know which mathematical operations leave a vector's orientation unchanged: changing a vector's orientation implies a change in quantum state.  Conversely, a mathematical operation that leaves a vector's orientation unchanged corresponds to a quantum mechanical process or event that leaves a quantum state unchanged.
 
