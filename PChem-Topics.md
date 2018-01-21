@@ -65,8 +65,8 @@ We can now rewrite our eigenvector equation as it applies to this situation.  Fi
 
 Rewriting equation \ref{eig} separately for each of the two eigenvectors and eigenvalues yields  
 \begin{equation}\label{Hspin1}
-    \mathbf{H}\vec{\alpha}&=\lambda_{\alpha}\vec{\alpha}\label{Hspin1}\\
-   \mathbf{H}\vec{\beta}&=\lambda_{\beta}\vec{\beta}\label{Hspin2}
+    \mathbf{H}\vec{\alpha}=\lambda_{\alpha}\vec{\alpha}\label{Hspin1}\\
+   \mathbf{H}\vec{\beta}=\lambda_{\beta}\vec{\beta}\label{Hspin2}
 \end{equation}
 
 From the previous discussion we know that equation \ref{Hspin1} implies that if we place an electron in the spin state $$\vec{\alpha}$$ and measure its energy, we will definitely obtain the energy value $$\lambda_\alpha$$.  Equation \ref{Hspin2} implies that if the electron is in the state $$\vec{\beta}$$ and we measure its energy we can be 100\% confident that we will obtain the energy value $$\lambda_\beta$$.
