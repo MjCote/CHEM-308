@@ -76,4 +76,4 @@ To highlight some key features of $$\vec{\alpha}$$ and  $$\vec{\beta}$$ we can u
 
 In this example we will define our coordinates so that our $$\vec{\alpha}$$ vector lies along the horizontal axis (labeled $$u$$ for up) and $$\vec{\beta}$$ lies along the vertical axis (labeled $$d$$ for down). We could have chosen other coordinates, as we will see later, but these are convenient for now.
 ![alt text][vector1]
-[vector1]: https://github.com/MjCote/Quantum-Chaos/blob/master/vectors2018.png
+[vector1]: https://github.com/MjCote/Quantum-Chaos/blob/master/vectors2018.png "vector1 graphic"
