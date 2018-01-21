@@ -64,7 +64,6 @@ We can now rewrite our eigenvector equation as it applies to this situation.  Fi
 |  $$ \lambda_{\beta}$$ |  energy of an electron in the spin down state |
 
 Rewriting equation \ref{eig} separately for each of the two eigenvectors and eigenvalues yields  
-
 \begin{equation}\label{Hspin1}
     \mathbf{H}\vec{\alpha}&=\lambda_{\alpha}\vec{\alpha}\label{Hspin1}\\
    \mathbf{H}\vec{\beta}&=\lambda_{\beta}\vec{\beta}\label{Hspin2}
