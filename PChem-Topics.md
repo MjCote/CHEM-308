@@ -79,4 +79,4 @@ In this example we will define our coordinates so that our $$\vec{\alpha}$$ vect
 ![alt text][vector1]
 [vector1]: https://github.com/MjCote/Quantum-Chaos/blob/master/vectors2018.png "vector1 graphic"
 
-##Yes, I've updated the page, again.
+## Yes, I've updated the page, again.
