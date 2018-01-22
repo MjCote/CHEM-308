@@ -65,22 +65,13 @@ To reinforce the very important connections between the arrow graphics, the expr
 
 $$
 \eqalign{
-3x - 4y &= 5\\
-x  +  7 &= -2y
-}
-$$
-
-
-$$
-  \vec{\alpha}  =
+\vec{\alpha}  &=
 \begin{pmatrix}
   1 \\
   0 \\
 \end{pmatrix}\\
-
- \vec{\alpha}= 1\cdot\vec{\alpha} + 0\cdot\vec{\beta} \\
-
-  \vec{\alpha}= 1\begin{pmatrix}
+&= 1\cdot\vec{\alpha} + 0\cdot\vec{\beta} \\
+&= 1\begin{pmatrix}
   1 \\
   0 \\
 \end{pmatrix}
@@ -88,6 +79,7 @@ $$
   0  \\
   1 \\
 \end{pmatrix}\\
+}
 $$
 
 $$
