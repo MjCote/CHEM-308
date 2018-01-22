@@ -80,3 +80,6 @@ In this example we will define our coordinates so that our $$\vec{\alpha}$$ vect
 [vector1]: https://github.com/MjCote/Quantum-Chaos/blob/master/vectors2018.png "vector1 graphic"
 
 ## Yes, I've updated the page, again.
+
+![vector1](/vectors2018.png)
+
