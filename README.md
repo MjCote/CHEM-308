@@ -1,4 +1,5 @@
-# Chemistry 308: Topics in Physical Chemistry
+# Bates College
+# Department of Chemistry and Biochemistry
 
 This is an upper level chemistry class that extends students' previous experience with quantum chemistry. There is an emphasis on linear algebra--operators are represented by matrices, quantum states by vectors--and numerical methods.
 
