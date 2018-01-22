@@ -82,6 +82,8 @@ $$
 }
 $$
 
+___
+
 $$
 \eqalign{
 \vec{\beta}  &=
@@ -101,6 +103,8 @@ $$
 }
 $$
 
+___
+
 $$
 \eqalign{
 \vec{\psi} &=
@@ -108,7 +112,6 @@ $$
    \frac{1}{\sqrt{2}} \\
  \frac{1}{\sqrt{2}} \\
  \end{pmatrix}\\
-&=  \frac{1}{\sqrt{2}}\cdot\vec{\alpha} +  \frac{1}{\sqrt{2}}\cdot\vec{\beta}\\
 &= \frac{1}{\sqrt{2}}\begin{pmatrix}
   1 \\
   0 \\
@@ -118,5 +121,6 @@ $$
   0 \\
   1 \\
 \end{pmatrix}\\
+&=  \frac{1}{\sqrt{2}}\cdot\vec{\alpha} +  \frac{1}{\sqrt{2}}\cdot\vec{\beta}\\
 }
 $$
