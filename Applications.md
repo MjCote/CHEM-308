@@ -26,7 +26,13 @@ We can now rewrite our eigenvector equation as it applies to this situation.  Fi
 |  $$\vec{\beta}$$ | vector representing a spin down electron |
 |  $$ \lambda_{\beta}$$ |  energy of an electron in the spin down state |
 
-Rewriting equation \ref{eig} separately for each of the two eigenvectors and eigenvalues yields  
+Rewriting
+
+\begin{equation}\label{eig}
+    \mathbf{O}\vec{v_i}=\lambda_i \vec{v_i}
+\end{equation}
+
+separately for each of the two eigenvectors and eigenvalues yields  
 
 \begin{equation}\label{Hspin1}
     \mathbf{H}\vec{\alpha}=\lambda_{\alpha}\vec{\alpha}
