@@ -38,6 +38,7 @@ Eigenvectors and eigenvalues are particularly important when we describe making 
 
 So, if we choose to measure a system's energy, for example, the measurement will yield as a result one of the eigenvalues of the energy operator. After the measurement the system will be left in the energy eigenstate corresponding to that eigenvalue. If we choose to measure some other property, such as position, we will obtain a position eigenvalue and force the system into a position eigenstate. As we will see later, position eigenstates cannot also be energy eigenstates so if we first measure energy and then measure position we can be sure that we are forcing the system to change states as a result of our prodding.
 
+Next up, some applications of these ideas. To continue, go to [Applications](/Applications.md).
 
 ### Applications
 #### Orbitals and Energy Levels
