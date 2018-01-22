@@ -7,4 +7,4 @@ This is an upper level chemistry class that builds on students' experience with 
 ### Table of Contents
 
 1. [Vectors and Quantum States](/Vectors-and-Quantum-States.md)
-  1. [Applications](/Applications.md)
+   1. [Applications](/Applications.md)
