@@ -83,6 +83,7 @@ $$
 &= 1\cdot\vec{\alpha} + 0\cdot\vec{\beta} \\
 }
 $$
+
 The state $$\vec{\beta}$$ can be expressed similarly:
 
 $$
@@ -103,6 +104,7 @@ $$
 &= 0\cdot\vec{\alpha} + 1\cdot\vec{\beta} \\
 }
 $$
+
 Following the same pattern, for $$\vec{\psi}$$ we have:
 
 $$
