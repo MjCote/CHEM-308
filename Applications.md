@@ -54,7 +54,7 @@ In this example we will define our coordinates so that our $$\vec{\alpha}$$ vect
 ![vector1](/vectors2018.png)
 
 
-If we normalize our eigenvectors then we can be confident that they have length 1. The vector $$\vec{\alpha}$$ should be as shown in the left diagram in figure \ref{fig1}. Notice it has length 1 and that in this $$ud$$ coordinate system it can be written (1, 0). This states that $$\vec{\alpha}$$ has projections of 1 on $$u$$ and 0 on $$d$$. Similarly, $$\vec{\beta}$$ is as shown in the middle diagram.
+If we normalize our eigenvectors then we can be confident that they have length 1. The vector $$\vec{\alpha}$$ should be as shown in the left diagram in the figure. Notice it has length 1 and that in this $$ud$$ coordinate system it can be written (1, 0). This states that $$\vec{\alpha}$$ has projections of 1 on $$u$$ and 0 on $$d$$. Similarly, $$\vec{\beta}$$ is as shown in the middle diagram.
 
 The point you should now pause to digest is that $$\vec{\alpha}$$ and $$\vec{\beta}$$ are the only two energy eigenvectors for this system but they are emphatically \emph{not} the only two possible states of the system.
 
@@ -124,3 +124,65 @@ $$
 &=  \frac{1}{\sqrt{2}}\cdot\vec{\alpha} +  \frac{1}{\sqrt{2}}\cdot\vec{\beta}\\
 }
 $$
+
+
+|----|-----|-----|
+|
+$$
+\eqalign{
+\vec{\alpha}  &=
+\begin{pmatrix}
+  1 \\
+  0 \\
+\end{pmatrix}\\
+&= 1\begin{pmatrix}
+  1 \\
+  0 \\
+\end{pmatrix}
++ 0\begin{pmatrix}
+  0  \\
+  1 \\
+\end{pmatrix}\\
+&= 1\cdot\vec{\alpha} + 0\cdot\vec{\beta} \\
+}
+$$
+|
+$$
+\eqalign{
+\vec{\beta}  &=
+\begin{pmatrix}
+  0 \\
+  1 \\
+\end{pmatrix}\\
+&= 0\begin{pmatrix}
+  1 \\
+  0 \\
+  \end{pmatrix}
++ 1\begin{pmatrix}
+  0 \\
+  1 \\
+\end{pmatrix}\\
+&= 0\cdot\vec{\alpha} + 1\cdot\vec{\beta} \\
+}
+$$
+|
+$$
+\eqalign{
+\vec{\psi} &=
+\begin{pmatrix}
+   \frac{1}{\sqrt{2}} \\
+ \frac{1}{\sqrt{2}} \\
+ \end{pmatrix}\\
+&= \frac{1}{\sqrt{2}}\begin{pmatrix}
+  1 \\
+  0 \\
+  \end{pmatrix}
++  \frac{1}{\sqrt{2}}
+\begin{pmatrix}
+  0 \\
+  1 \\
+\end{pmatrix}\\
+&=  \frac{1}{\sqrt{2}}\cdot\vec{\alpha} +  \frac{1}{\sqrt{2}}\cdot\vec{\beta}\\
+}
+$$
+|
