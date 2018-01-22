@@ -2,6 +2,7 @@
 
 # Vectors and Quantum States
 
+(For a table of contents, visit the [home page](/README.md))
 
 The following discussion of the use of vectors to describe quantum states will rely heavily on the following concepts from linear algebra.  If you do not yet feel comfortable with these concepts, please brush up on the problematic areas before trying to apply them to the quantum theory.
 
