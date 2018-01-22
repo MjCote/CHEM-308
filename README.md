@@ -1,7 +1,8 @@
-# Bates College
-# Department of Chemistry and Biochemistry
+# Topics in Physical Chemistry
+### Bates College
+### Department of Chemistry and Biochemistry
 
-This is an upper level chemistry class that extends students' previous experience with quantum chemistry. There is an emphasis on linear algebra--operators are represented by matrices, quantum states by vectors--and numerical methods.
+This is an upper level chemistry class that builds on students' experience with quantum chemistry. There is an emphasis on linear algebra--operators are represented by matrices, quantum states by vectors--and numerical methods.
 
 ### Table of Contents
 
