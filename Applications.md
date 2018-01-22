@@ -66,14 +66,14 @@ To reinforce the very important connections between the arrow graphics, the expr
 
 $$
   \vec{\alpha}  =
-  \quad
 \begin{pmatrix}
   1 \\
   0 \\
 \end{pmatrix}
- = 1\cdot\vec{\alpha} + 0\cdot\vec{\beta} 
+\quad
+ \vec{\alpha}= 1\cdot\vec{\alpha} + 0\cdot\vec{\beta} 
  \quad
-  = 1\begin{pmatrix}
+  \vec{\alpha}= 1\begin{pmatrix}
   1 \\
   0 \\
 \end{pmatrix}
