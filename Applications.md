@@ -69,10 +69,10 @@ $$
 \begin{pmatrix}
   1 \\
   0 \\
-\end{pmatrix}
-\quad
- \vec{\alpha}= 1\cdot\vec{\alpha} + 0\cdot\vec{\beta} 
- \quad
+\end{pmatrix}\\
+
+ \vec{\alpha}= 1\cdot\vec{\alpha} + 0\cdot\vec{\beta} \\
+
   \vec{\alpha}= 1\begin{pmatrix}
   1 \\
   0 \\
