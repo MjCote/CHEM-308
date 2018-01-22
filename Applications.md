@@ -61,16 +61,18 @@ The point you should now pause to digest is that $$\vec{\alpha}$$ and $$\vec{\be
 Consider another vector in the same $$ud$$ space. Let's call it $$\vec{\psi}$$.  It is shown in the third diagram in figure \ref{fig1}.  Since $$\vec{\psi}$$ exists in the same space as $$\vec{\alpha}$$ and $$\vec{\beta}$$, and since $$\{\vec{\alpha},\vec{\beta}\}$$ form a basis (which the figure shows to be orthonormal), we must be able to represent $$\vec{\psi}$$ as a linear combination of $$\vec{\alpha}$$ and $$\vec{\beta}$$.  The figure shows $$\vec{\psi}$$ lying midway between $$\vec{\alpha}$$  and $$\vec{\beta}$$ so it must have equal amounts of $$\vec{\alpha}$$ and $$\vec{\beta}$$ ``character.''  This is captured by the fact that when we write $$\vec{\psi}$$ as a column of numbers in the $$\vec{\alpha}$$, $$\vec{\beta}$$ basis, the two elements of $$\vec{\psi}$$ have the same absolute value. The graph also shows that $$\vec{\psi}$$ has length 1. Applying what we learned about calculating the lengths of vectors we conclude that $$\vec{\psi}$$ can be written in this $$ud$$ space as ($$\sqrt{1/2}, \sqrt{1/2})$$. The next section reminds you how to calculate vector lengths in case you need a reminder.
 
 
-To reinforce the very important connections between the arrow graphics, the expression of vectors as columns of numbers, and the use of linear combinations of basis vectors, take the time to verify that the following expressions are both internally consistent and also consistent with the graphs in figure \ref{fig1}. Don't move on to the next section until you see clearly how the elements comprised by the vectors, the expansion coefficients, and the projections in the graphs all say the same things!
+To reinforce the very important connections between the arrow graphics, the expression of vectors as columns of numbers, and the use of linear combinations of basis vectors, take the time to verify that the following expressions are both internally consistent and also consistent with the graphs in the figure. Don't move on to the next section until you see clearly how the elements comprised by the vectors, the expansion coefficients, and the projections in the graphs all say the same things!
 
 
 $$
   \vec{\alpha}  =
+  \quad
 \begin{pmatrix}
   1 \\
   0 \\
 \end{pmatrix}
  = 1\cdot\vec{\alpha} + 0\cdot\vec{\beta} 
+ \quad
   = 1\begin{pmatrix}
   1 \\
   0 \\
@@ -106,5 +108,5 @@ $$
 +  \frac{1}{\sqrt{2}}\begin{pmatrix}
   0 \\
 1 \\
-\end{pmatrix}
+\end{pmatrix}\\
 $$
