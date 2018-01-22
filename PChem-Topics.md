@@ -64,9 +64,13 @@ We can now rewrite our eigenvector equation as it applies to this situation.  Fi
 |  $$ \lambda_{\beta}$$ |  energy of an electron in the spin down state |
 
 Rewriting equation \ref{eig} separately for each of the two eigenvectors and eigenvalues yields  
-\begin{equation}
-    \mathbf{H}\vec{\alpha}=\lambda_{\alpha}\vec{\alpha}\label{Hspin1}\\
-   \mathbf{H}\vec{\beta}=\lambda_{\beta}\vec{\beta}\label{Hspin2}
+
+\begin{equation}\label{Hspin1}
+    \mathbf{H}\vec{\alpha}=\lambda_{\alpha}\vec{\alpha}
+\end{equation}
+
+\begin{equation}\label{Hspin2}
+   \mathbf{H}\vec{\beta}=\lambda_{\beta}\vec{\beta}
 \end{equation}
 
 From the previous discussion we know that equation \ref{Hspin1} implies that if we place an electron in the spin state $$\vec{\alpha}$$ and measure its energy, we will definitely obtain the energy value $$\lambda_\alpha$$.  Equation \ref{Hspin2} implies that if the electron is in the state $$\vec{\beta}$$ and we measure its energy we can be 100\% confident that we will obtain the energy value $$\lambda_\beta$$.
@@ -76,10 +80,7 @@ To highlight some key features of $$\vec{\alpha}$$ and  $$\vec{\beta}$$ we can u
 
 In this example we will define our coordinates so that our $$\vec{\alpha}$$ vector lies along the horizontal axis (labeled $$u$$ for up) and $$\vec{\beta}$$ lies along the vertical axis (labeled $$d$$ for down). We could have chosen other coordinates, as we will see later, but these are convenient for now.
 
-![alt text][vector1]
-[vector1]: https://github.com/MjCote/Quantum-Chaos/blob/master/vectors2018.png "vector1 graphic"
 
-## Yes, I've updated the page, again.
 
 ![vector1](/vectors2018.png)
 
