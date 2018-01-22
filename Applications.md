@@ -64,14 +64,14 @@ Consider another vector in the same $$ud$$ space. Let's call it $$\vec{\psi}$$. 
 To reinforce the very important connections between the arrow graphics, the expression of vectors as columns of numbers, and the use of linear combinations of basis vectors, take the time to verify that the following expressions are both internally consistent and also consistent with the graphs in figure \ref{fig1}. Don't move on to the next section until you see clearly how the elements comprised by the vectors, the expansion coefficients, and the projections in the graphs all say the same things!
 
 
-\begin{eqnarray}
-  \vec{\alpha} & =
+$$
+  \vec{\alpha}  =
 \begin{pmatrix}
   1 \\
   0 \\
 \end{pmatrix}
- = 1\cdot\vec{\alpha} + 0\cdot\vec{\beta} &
-  =1\begin{pmatrix}
+ = 1\cdot\vec{\alpha} + 0\cdot\vec{\beta} 
+  = 1\begin{pmatrix}
   1 \\
   0 \\
 \end{pmatrix}
@@ -79,12 +79,13 @@ To reinforce the very important connections between the arrow graphics, the expr
   0  \\
   1 \\
 \end{pmatrix}\\
+$$
 
-
-\vec{\beta} & =\begin{pmatrix}
+$$
+\vec{\beta}  =\begin{pmatrix}
   0 \\
 1 \\\end{pmatrix}
- = 0\cdot\vec{\alpha} + 1\cdot\vec{\beta} &
+ = 0\cdot\vec{\alpha} + 1\cdot\vec{\beta} 
   =0\begin{pmatrix}
   1 \\
 0 \\\end{pmatrix}
@@ -92,9 +93,10 @@ To reinforce the very important connections between the arrow graphics, the expr
   0 \\
   1 \\
 \end{pmatrix}\\
+$$
 
-
-\vec{\psi} &=
+$$
+\vec{\psi} =
 \begin{pmatrix}
    \frac{1}{\sqrt{2}} \\
  \frac{1}{\sqrt{2}} \\\end{pmatrix}
@@ -103,6 +105,6 @@ To reinforce the very important connections between the arrow graphics, the expr
 0 \\\end{pmatrix}
 +  \frac{1}{\sqrt{2}}\begin{pmatrix}
   0 \\
-1 \\\end{pmatrix}
- \end{eqnarray}
-
+1 \\
+\end{pmatrix}
+$$
