@@ -89,7 +89,6 @@ $$
   0 \\
   1 \\
 \end{pmatrix}\\
-&= 0\cdot\vec{\alpha} + 1\cdot\vec{\beta} \\
 &= 0\begin{pmatrix}
   1 \\
   0 \\
@@ -98,19 +97,26 @@ $$
   0 \\
   1 \\
 \end{pmatrix}\\
+&= 0\cdot\vec{\alpha} + 1\cdot\vec{\beta} \\
 }
 $$
 
 $$
-\vec{\psi} =
+\eqalign{
+\vec{\psi} &=
 \begin{pmatrix}
    \frac{1}{\sqrt{2}} \\
- \frac{1}{\sqrt{2}} \\\end{pmatrix}
- =  \frac{1}{\sqrt{2}}\cdot\vec{\alpha} +  \frac{1}{\sqrt{2}}\cdot\vec{\beta} & = \frac{1}{\sqrt{2}}\begin{pmatrix}
+ \frac{1}{\sqrt{2}} \\
+ \end{pmatrix}\\
+&=  \frac{1}{\sqrt{2}}\cdot\vec{\alpha} +  \frac{1}{\sqrt{2}}\cdot\vec{\beta}\\
+&= \frac{1}{\sqrt{2}}\begin{pmatrix}
   1 \\
-0 \\\end{pmatrix}
-+  \frac{1}{\sqrt{2}}\begin{pmatrix}
   0 \\
-1 \\
+  \end{pmatrix}
++  \frac{1}{\sqrt{2}}
+\begin{pmatrix}
+  0 \\
+  1 \\
 \end{pmatrix}\\
+}
 $$
