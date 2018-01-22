@@ -126,8 +126,6 @@ $$
 $$
 
 
-|----|-----|-----|
-|
 $$
 \eqalign{
 \vec{\alpha}  &=
@@ -144,11 +142,6 @@ $$
   1 \\
 \end{pmatrix}\\
 &= 1\cdot\vec{\alpha} + 0\cdot\vec{\beta} \\
-}
-$$
-|
-$$
-\eqalign{
 \vec{\beta}  &=
 \begin{pmatrix}
   0 \\
@@ -163,11 +156,6 @@ $$
   1 \\
 \end{pmatrix}\\
 &= 0\cdot\vec{\alpha} + 1\cdot\vec{\beta} \\
-}
-$$
-|
-$$
-\eqalign{
 \vec{\psi} &=
 \begin{pmatrix}
    \frac{1}{\sqrt{2}} \\
@@ -185,4 +173,5 @@ $$
 &=  \frac{1}{\sqrt{2}}\cdot\vec{\alpha} +  \frac{1}{\sqrt{2}}\cdot\vec{\beta}\\
 }
 $$
-|
+
+
