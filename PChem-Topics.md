@@ -80,7 +80,8 @@ To highlight some key features of $$\vec{\alpha}$$ and  $$\vec{\beta}$$ we can u
 
 In this example we will define our coordinates so that our $$\vec{\alpha}$$ vector lies along the horizontal axis (labeled $$u$$ for up) and $$\vec{\beta}$$ lies along the vertical axis (labeled $$d$$ for down). We could have chosen other coordinates, as we will see later, but these are convenient for now.
 
-
-
 ![vector1](/vectors2018.png)
 
+In the figure above, three of the many possible spin states are depicted as arrows. The first state can be represented by $$\vec{\alpha}=(1,0)$$, the second by $$\vec{\beta}=(0,1)$$, and the third by $$\vec{\psi}=(1/\sqrt{2},1/\sqrt{2 })$$.
+
+If we normalize our eigenvectors then we can be confident that they have length 1. The vector $$\vec{\alpha}$$ should be as shown in the left diagram in the figure. Notice it has length 1 and that in this $$ud$$ coordinate system it can be written $$(1, 0)$$. This states that $$\vec{\alpha}$$ has projections of 1 on $$u$$ and 0 on $$d$$. Similarly, $$\vec{\beta}$$ is as shown in the middle diagram.
