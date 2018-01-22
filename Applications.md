@@ -63,11 +63,12 @@ Consider another vector in the same $$ud$$ space. Let's call it $$\vec{\psi}$$. 
 
 To reinforce the very important connections between the arrow graphics, the expression of vectors as columns of numbers, and the use of linear combinations of basis vectors, take the time to verify that the following expressions are both internally consistent and also consistent with the graphs in the figure. Don't move on to the next section until you see clearly how the elements comprised by the vectors, the expansion coefficients, and the projections in the graphs all say the same things!
 
+$$
 \eqalign{
 3x - 4y &= 5\\
 x  +  7 &= -2y
 }
-
+$$
 
 
 $$
