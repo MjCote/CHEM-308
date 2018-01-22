@@ -26,7 +26,7 @@ We can now rewrite our eigenvector equation as it applies to this situation.  Fi
 |  $$\vec{\beta}$$ | vector representing a spin down electron |
 |  $$ \lambda_{\beta}$$ |  energy of an electron in the spin down state |
 
-Rewriting
+Rewriting the key equation from [Vectors and Quantum States](/Vectors-and-Quantum-States.md)
 
 \begin{equation}\label{eig}
     \mathbf{O}\vec{v_i}=\lambda_i \vec{v_i}
