@@ -2,6 +2,8 @@
 
 # [Vectors and Quantum States](/Vectors-and-Quantum-States.md) 
 
+(For a table of contents, visit the [home page](/README.md))
+
 ## Applications
 #### Orbitals and Energy Levels
 You are already familiar with some of these concepts, but may not have encountered them expressed in the language of linear algebra.  For example, the energies of the levels available to an electron in a hydrogen atom are the _eigenvalues_ of the energy operator for a hydrogen atom.  The orbitals of the hydrogen atom are the states with well defined energy.  They are the _energy eigenstates_---the states represented by eigenvectors of the hydrogen atom energy operator.
