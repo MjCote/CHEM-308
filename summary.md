@@ -5,15 +5,14 @@
 (For a table of contents, visit the [home page](/README.md))
 
 
-.1 The state of a system is represented by a vector (or function).  In general, the vector (or function) is complex-valued.
+1. The state of a system is represented by a vector (or function).  In general, the vector (or function) is complex-valued.
 
 
+1. Physical observables have corresponding operators which can be represented as matrices (or analytic operators).
 
-.1 Physical observables have corresponding operators which can be represented as matrices (or analytic operators).
+1. The most often encountered physical observables are position, momentum, energy, angular momentum, and spin.
 
- .1 The most often encountered physical observables are position, momentum, energy, angular momentum, and spin.
-
- .1 The time-dependent Schr&#195dinger equation (TDSE) describes the time evolution of a quantum state. The equation in analytic form is
+1. The time-dependent Schroedinger equation (TDSE) describes the time evolution of a quantum state. The equation in analytic form is
 
 $$
    \hat{H}\Psi = i \hbar\frac{\partial{\Psi}}{\partial t}
@@ -21,7 +20,7 @@ $$
 
 where $$\hat{H}$$ is the Hamiltonian operator---the operator corresponding to the total energy of the system.  It is given by the sum of the kinetic and potential energy operators.  The TDSE is analogous to an equation of motion encountered in classical systems.
 
-.1 A vector (or function) must be a solution to the time-dependent Schr\"{o}dinger equation in order to describe a physically realizable state.  In addition, the vector or function must be normalizable.
+1. A vector (or function) must be a solution to the time-dependent Schr\"{o}dinger equation in order to describe a physically realizable state.  In addition, the vector or function must be normalizable.
 
 .1 Before writing down the elements of a vector representing a state, or writing down the elements of a matrix representing an operator, a choice of basis must be made.
 
