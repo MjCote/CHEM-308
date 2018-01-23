@@ -2,13 +2,16 @@
 
 ### Lengths of Vectors and the Inner Product
 
-We emphasized that it is the orientation of a vector that encodes a quantum state.  The vectors $$\vec{\alpha}$$, $$2\vec{\alpha}$$, and $$-5\vec{\alpha}$$ all represent the same state because the vector orientations are the same; only the lengths are different.  Nonetheless, we will have to pay attention to vector lengths in some situations.  We have already discussed the use of the Pythagorean theorem as one way to measure the length of a vector, and then introduced the inner product as a more compact and easily generalizable approach. We revisit them here briefly so the key ideas are fresh.
+We emphasized that it is the orientation of a vector that encodes a quantum state.  The vectors $$\vec{\alpha}$$, $$2\vec{\alpha}$$, and $$-5\vec{\alpha}$$, all represent the same state because the vector orientations are the same; only the lengths are different.  Nonetheless, we will have to pay attention to vector lengths in some situations.  The Pythagorean theorem provides a way to measure the length of a vector, and the inner product is a more compact and easily generalizable alternative we will make more use of.
 
-To use the Pythagorean formula to measure vector length consider the arrow representing a vector to be the hypotenuse of a right triangle.  If we know the length of the arrow's projection onto each of the perpendicular axes defining the coordinate system we can easily calculate the vector's length.  The length of a vector $$\vec{v} = (u,d)$$, written $$\parallel\vec{v}\parallel$$, is given by $$\parallel\vec{v}\parallel=\sqrt{u^{2}+d^{2}}$$.  By rewriting the squared terms as products we can emphasize an important feature of the length calculation.  Both forms are shown below.
+To use the Pythagorean formula to measure vector length, consider the arrow representing a vector to be the hypotenuse of a right triangle.  If we know the length of the arrow's projection onto each of the perpendicular axes defining the coordinate system then we can easily calculate the vector's length.  If we have a vector $$\vec{v} = (u,d)$$, its length is written $$\parallel\vec{v}\parallel$$, can can be computed by $$\parallel\vec{v}\parallel=\sqrt{u^{2}+d^{2}}$$.  By rewriting the squared terms as products we can emphasize an important feature of the length calculation.  Both forms are shown below.
 
-\begin{equation}\label{eq1}
-\parallel\vec{v}\parallel=\sqrt{u^{2}+d^{2}}=\sqrt{uu+dd}
-\end{equation}
+$$
+\eqalign{\label{eq1}
+\parallel\vec{v}\parallel &= \sqrt{u^{2}+d^{2}}\\
+&= \sqrt{uu+dd}
+}
+$$
 
 The last form of the expression, in which $$uu$$ and $$dd$$ are used rather than $$u^2$$ and $$d^2$$, can be read as a manifestation of our mantra ``multiply corresponding elements and add up,'' which you should recognize as the multiplication of vectors.  This serves to remind us that a more compact notation is available:
 
