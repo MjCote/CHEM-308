@@ -19,19 +19,20 @@ The last form of the expression, in which $$uu$$ and $$dd$$ are used rather than
 \parallel\vec{v}\parallel=\sqrt{\langle \vec{v},\vec{v} \rangle}
 \end{equation}
 
-where the angle bracket notation indicates an ``inner product'' or ``scalar product'' of vectors.  To compute an inner product we must perform three operations.\footnote{Notice that in this case we're taking the inner product of the vector $$\vec{v}$$ with itself, but we can also take the inner product of two different vectors, as long as they have the same number of elements.}  First, transpose the vector written on the left so that it becomes a row vector. Then take its complex conjugate, which simply means replace $$i=\sqrt{-1}$$ with $$-i=-\sqrt{-1}$$ everywhere $$i$$ appears. Here we're only using real numbers so complex conjugation leaves the left vector unchanged. Finally, perform the usual vector multiplication.  Writing out the steps we obtain
+where the angle bracket notation indicates an "inner product" or "scalar product" of vectors.  To compute an inner product we must perform three operations.(Notice that in this case we're taking the inner product of the vector $$\vec{v}$$ with itself, but we can also take the inner product of two different vectors, as long as they have the same number of elements.)  First, transpose the vector written on the left so that it becomes a row vector. Then take its complex conjugate, which simply means replace $$i=\sqrt{-1}$$ with $$-i=-\sqrt{-1}$$ everywhere $$i$$ appears. Here we're only using real numbers so complex conjugation leaves the left vector unchanged. Finally, perform the usual vector multiplication.  Writing out the steps we obtain
 
-\begin{equation}\label{eq2}
-\parallel\vec{v}\parallel=\sqrt{\langle \vec{v},\vec{v} \rangle}=\sqrt{
+$$\eqalign{
+\parallel\vec{v}\parallel &= \sqrt{\langle \vec{v},\vec{v} \rangle}\\
+&=\sqrt{
 \begin{pmatrix}
 u^{\star} & d^{\star} \\
 \end{pmatrix}
 \begin{pmatrix}
   u \\
   d \\
-\end{pmatrix}}
-=\sqrt{u^{\star}u+d^{\star}d}
-\end{equation}
+\end{pmatrix}} \\
+&=\sqrt{u^{\star}u+d^{\star}d}
+}$$
 
 where the star superscript implies complex conjugation.  Notice that we end up with the same result we obtained using Pythagoras's approach.  When we have vectors with more than two elements, the advantage of using the inner product will become obvious.  For now, to be sure you're keeping track of everything, try applying the inner product method to determine the lengths of the three vectors shown in the figure.  If all goes well you should find that the lengths of all three vectors are 1.
 
