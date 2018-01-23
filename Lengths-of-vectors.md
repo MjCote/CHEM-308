@@ -8,12 +8,12 @@ To use the Pythagorean formula to measure vector length, consider the arrow repr
 
 $$
 \eqalign{
-\parallel\vec{v}\parallel &= \sqrt{u^{2}+d^{2}}\\\label{eq1A}
-&= \sqrt{uu+dd} \label{eq1B}
+\parallel\vec{v}\parallel &= \sqrt{u^{2}+d^{2}}\\
+&= \sqrt{uu+dd} 
 }
 $$
 
-The last form of the expression, in which $$uu$$ and $$dd$$ are used rather than $$u^2$$ and $$d^2$$, can be read as a manifestation of our mantra ``multiply corresponding elements and add up,'' which you should recognize as the multiplication of vectors.  This serves to remind us that a more compact notation is available:
+The last form of the expression, in which $$uu$$ and $$dd$$ are used rather than $$u^2$$ and $$d^2$$, can be read as a manifestation of our mantra for multiplying vectors: "multiply corresponding elements and add up."   This serves to remind us that a more compact notation is available:
 
 \begin{equation}\label{eq2}
 \parallel\vec{v}\parallel=\sqrt{\langle \vec{v},\vec{v} \rangle}
