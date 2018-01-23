@@ -11,3 +11,4 @@ This is an upper level chemistry class that builds on students' experience with 
 
 1. [Vectors and Quantum States](/Vectors-and-Quantum-States.md)
    1. [Applications](/Applications.md)
+1.[A Summary of Some of the Key Ideas in Quantum Theory](/summary.md)
