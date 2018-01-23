@@ -34,7 +34,9 @@ u^{\star} & d^{\star} \\
 &=\sqrt{u^{\star}u+d^{\star}d}
 }$$
 
-where the star superscript implies complex conjugation.  Notice that we end up with the same result we obtained using Pythagoras's approach.  When we have vectors with more than two elements, the advantage of using the inner product will become obvious.  For now, to be sure you're keeping track of everything, try applying the inner product method to determine the lengths of the three vectors shown in the figure.  If all goes well you should find that the lengths of all three vectors are 1.
+where the star superscript implies complex conjugation.  Notice that we end up with the same result we obtained using Pythagoras's approach.  When we have vectors with more than two elements, the advantage of using the inner product will become obvious.  For now, to be sure you're keeping track of everything, try applying the inner product method to determine the lengths of the three vectors shown in the following figure.  If all goes well you should find that the lengths of all three vectors are 1.
+
+![vector1](/vectors2018.png)
 
 #### Normalization
 We can make the length of any vector 1 by dividing the vector by its own length.  This process is called \emph{normalization} and we will perform it often.  Given a vector $$\vec{v}$$ with length $$ \parallel \vec{v}\parallel$$ we can create a new vector $$\vec{w}$$ with the same orientation as $$\vec{v}$$ but with length 1:
