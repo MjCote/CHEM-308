@@ -127,5 +127,5 @@ $$
 }
 $$
 
-
+Next topic: [Lengths of vectors, the inner product, and normalization](/Lengths-of-vectors.md)
 
