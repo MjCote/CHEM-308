@@ -39,7 +39,7 @@ where the star superscript implies complex conjugation.  Notice that we end up w
 ![vector1](/vectors2018.png)
 
 #### Normalization
-We can make the length of any vector 1 by dividing the vector by its own length.  This process is called \emph{normalization} and we will perform it often.  Given a vector $$\vec{v}$$ with length $$ \parallel \vec{v}\parallel$$ we can create a new vector $$\vec{w}$$ with the same orientation as $$\vec{v}$$ but with length 1:
+We can make the length of any vector 1 by dividing the vector by its own length.  This process is called _normalization_ and we will perform it often.  Given a vector $$\vec{v}$$ with length $$ \parallel \vec{v}\parallel$$ we can create a new vector $$\vec{w}$$ with the same orientation as $$\vec{v}$$ but with length 1:
 
 \begin{equation}
     \vec{w} = \frac{\vec{v}}{\parallel\vec{v}\parallel}
