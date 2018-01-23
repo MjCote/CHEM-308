@@ -25,16 +25,16 @@ $$
 1. Before writing down the elements of a vector representing a state, or writing down the elements of a matrix representing an operator, a choice of basis must be made.
 
 
-.1 \label{basis1} The physical meaning of a state vector, or of an operator corresponding to an observable, does _not_ depend on the choice of basis. The system's state, or the value of an observable property, does not change if we adopt a different basis for its expression.
+1. The physical meaning of a state vector, or of an operator corresponding to an observable, does _not_ depend on the choice of basis. The system's state, or the value of an observable property, does not change if we adopt a different basis for its expression.
 
 1. \label{basis2} The values of the elements composing a vector or matrix \emph{does} depend on the choice of basis.  This means the vector representing a given state, or the matrix representing a given operator, can take on different forms (can have different elements) depending on the basis chosen. Combining points (\ref{basis1}) and (\ref{basis2}):  The basis choice does not affect the state described by a vector, or the observable property encoded by a matrix, but it does affect the way the vector or matrix is written.
 
 1. The result of an idealized measurement of some observable property of the system will always be one of the eigenvalues of the corresponding operator.  For example, if a particle's energy is measured, the experimental value obtained will be one of the eigenvalues of the energy operator.  An energy value which is not one of the eigenvalues of the energy operator will never be observed.  This is true only of idealized measurements because real measurements may not have sufficient resolution to distinguish eigenvalues with similar values.
 
-Note: The energy operator differs from system to system, so the energy eigenvalues (the allowed energy values) vary from system to system.
+    Note: The energy operator differs from system to system, so the energy eigenvalues (the allowed energy values) vary from system to system.
 
 
-1. \label{lc} The probability of obtaining a particular eigenvalue when making a measurement is given by the squared modulus of the expansion coefficient corresponding to that eigenvalue.  For example, consider a particle in a state $$\vec{\psi}$$. To calculate the probability of obtaining a particular value when measuring momentum, the first step is to write $$\vec{\psi}$$ as a linear
+1. The probability of obtaining a particular eigenvalue when making a measurement is given by the squared modulus of the expansion coefficient corresponding to that eigenvalue.  For example, consider a particle in a state $$\vec{\psi}$$. To calculate the probability of obtaining a particular value when measuring momentum, the first step is to write $$\vec{\psi}$$ as a linear
 combination of momentum eigenvectors,
 \begin{eqnarray*}
 \vec{\psi} &=& \sum_{j}c_{j}\vec{p_{j}}\\
