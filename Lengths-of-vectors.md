@@ -7,9 +7,9 @@ We emphasized that it is the orientation of a vector that encodes a quantum stat
 To use the Pythagorean formula to measure vector length, consider the arrow representing a vector to be the hypotenuse of a right triangle.  If we know the length of the arrow's projection onto each of the perpendicular axes defining the coordinate system then we can easily calculate the vector's length.  If we have a vector $$\vec{v} = (u,d)$$, its length is written $$\parallel\vec{v}\parallel$$, can can be computed by $$\parallel\vec{v}\parallel=\sqrt{u^{2}+d^{2}}$$.  By rewriting the squared terms as products we can emphasize an important feature of the length calculation.  Both forms are shown below.
 
 $$
-\eqalign{\label{eq1}
-\parallel\vec{v}\parallel &= \sqrt{u^{2}+d^{2}}\\
-&= \sqrt{uu+dd}
+\eqalign{
+\parallel\vec{v}\parallel &= \sqrt{u^{2}+d^{2}}\\\label{eq1A}
+&= \sqrt{uu+dd} \label{eq1B}
 }
 $$
 
