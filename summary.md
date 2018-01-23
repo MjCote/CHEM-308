@@ -13,7 +13,7 @@
 
  .1 The most often encountered physical observables are position, momentum, energy, angular momentum, and spin.
 
- .1 The time-dependent Schr\H{o}dinger equation (TDSE) describes the time evolution of a quantum state. The equation in analytic form is
+ .1 The time-dependent Schr&#195182dinger equation (TDSE) describes the time evolution of a quantum state. The equation in analytic form is
 
 $$
    \hat{H}\Psi = i \hbar\frac{\partial{\Psi}}{\partial t}
