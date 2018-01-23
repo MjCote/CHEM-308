@@ -1,6 +1,10 @@
 {% include mathjax.html %}
 
-### Lengths of Vectors and the Inner Product
+# [Vectors and Quantum States](/Vectors-and-Quantum-States.md) 
+
+(For a table of contents, visit the [home page](/README.md))
+
+## Lengths of Vectors and the Inner Product
 
 We emphasized that it is the orientation of a vector that encodes a quantum state.  The vectors $$\vec{\alpha}$$, $$2\vec{\alpha}$$, and $$-5\vec{\alpha}$$, all represent the same state because the vector orientations are the same; only the lengths are different.  Nonetheless, we will have to pay attention to vector lengths in some situations.  The Pythagorean theorem provides a way to measure the length of a vector, and the inner product is a more compact and easily generalizable alternative we will make more use of.
 
