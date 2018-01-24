@@ -73,9 +73,9 @@ the results are
 |Eigenvalue | probability|
 |:---:|:---:|
 |$$\lambda_{1}$$ | $$\|0\|^2=0$$|
-|$$\lambda_{2}$$ | $$|0|^2=0$$|
-|$$\lambda_{3}$$ | $$|1|^2=1$$|
-|$$\lambda_{4}$$ | $$|0|^2=0$$|
+|$$\lambda_{2}$$ | $$\|0\|^2=0$$|
+|$$\lambda_{3}$$ | $$\|1\|^2=1$$|
+|$$\lambda_{4}$$ | $$\|0\|^2=0$$|
 |$$\vdots$$ | $$\vdots$$|
 
 Thus, with a probability of one (certainty) the value $$\lambda_{3}$$ will be obtained if a momentum measurement is made.
