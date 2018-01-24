@@ -36,12 +36,15 @@ $$
 
 1. The probability of obtaining a particular eigenvalue when making a measurement is given by the squared modulus of the expansion coefficient corresponding to that eigenvalue.  For example, consider a particle in a state $$\vec{\psi}$$. To calculate the probability of obtaining a particular value when measuring momentum, the first step is to write $$\vec{\psi}$$ as a linear
 combination of momentum eigenvectors,
-\begin{eqnarray*}
-\vec{\psi} &=& \sum_{j}c_{j}\vec{p_{j}}\\
-\vec{\psi} &=& c_{1}\vec{p_{1}} + c_{2}\vec{p_{2}}+ \ldots \\
-\vec{\psi} &=& \langle \vec{p_{1}}, \vec{\psi}\rangle \vec{p_{1}} +
+
+$$
+\eqalign{
+\vec{\psi} &= \sum_{j}c_{j}\vec{p_{j}}\\
+\vec{\psi} &= c_{1}\vec{p_{1}} + c_{2}\vec{p_{2}}+ \ldots \\
+\vec{\psi} &= \langle \vec{p_{1}}, \vec{\psi}\rangle \vec{p_{1}} +
 \langle \vec{p_{2}}, \vec{\psi}\rangle \vec{p_{2}}+ \ldots
-\end{eqnarray*}
+}$$
+
 where $$\vec{p_{j}}$$ is the $$j$$th eigenvector of the momentum operator, and $$c_{j}$$ is the $$j$$th expansion coefficient.  Notice that the expansion coefficients are equal to the inner products of the system's state vector with each of the basis vectors.
 
 If $$\hat{\mathbf{P}}$$ is the momentum operator, and $$\lambda_{j}$$ is the $$j$$th momentum eigenvalue, the eigenvector and eigenvalue equation can be written
