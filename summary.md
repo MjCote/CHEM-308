@@ -18,7 +18,7 @@ $$
    \hat{H}\Psi = i \hbar\frac{\partial{\Psi}}{\partial t}
 $$
 
-<br/><br/>where $$\hat{H}$$ is the Hamiltonian operator---the operator corresponding to the total energy of the system.  It is given by the sum of the kinetic and potential energy operators.  The TDSE is analogous to an equation of motion encountered in classical systems.
+where $$\hat{H}$$ is the Hamiltonian operator---the operator corresponding to<br/><br/>the total energy of the system.  It is given by the sum of the kinetic and potential energy operators.  The TDSE is analogous to an equation of motion encountered in classical systems.
 
 1. A vector (or function) must be a solution to the time-dependent Schr\"{o}dinger equation in order to describe a physically realizable state.  In addition, the vector or function must be normalizable.
 
