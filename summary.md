@@ -53,7 +53,7 @@ $$
 \hat{\mathbf{P}}\vec{p_{j}} = \lambda_{j}\vec{p_{j}}
 $$
 
-   Once the particle's state is expressed as a linear combination of momentum eigenvectors, the probability that any particular momentum eigenvalue will be obtained as a result of a momentum measurement can be calculated.  In particular, the probability that a momentum measurement will yield the value $$\lambda_{4}$$ is $$\|c_{4}\|^2$$.  In general, $$\|c_{k}\|^2$$ is the probability that a momentum measurement will yield the value $$\lambda_{k}$$.
+Once the particle's state is expressed as a linear combination of momentum eigenvectors, the probability that any particular momentum eigenvalue will be obtained as a result of a momentum measurement can be calculated.  In particular, the probability that a momentum measurement will yield the value $$\lambda_{4}$$ is $$\|c_{4}\|^2$$.  In general, $$\|c_{k}\|^2$$ is the probability that a momentum measurement will yield the value $$\lambda_{k}$$.
 
 1. The result of an individual measurement of an observable property is predictable with certainty only if the vector describing the system's state is an eigenvector of the operator for that observable.  For example, the value $$\lambda_{3}$$ (the third momentum eigenvalue) will be obtained with certainty from an individual momentum measurement only if the particle's state is $$\vec{p_{3}}$$ (the third eigenvector of the momentum operator).  To see that this follows from item 6, notice that if the particle is in the third momentum eigenstate, then
 
@@ -61,16 +61,16 @@ $$
 \vec{\psi}=\vec{p_{3}}
 $$
 
-   In this case the system's state can be expressed as the following linear combination of momentum eigenvectors,
+In this case the system's state can be expressed as the following linear combination of momentum eigenvectors,
 
 $$
 \vec{\psi} = 0\cdot\vec{p_{1}} + 0\cdot\vec{p_{2}} + 1\cdot\vec{p_{3}} +  0\cdot\vec{p_{4}}+\ldots\\
 $$
 
-   Notice that only the third expansion coefficient is nonzero. When the probability of obtaining each of the eigenvalues is evaluated,
+Notice that only the third expansion coefficient is nonzero. When the probability of obtaining each of the eigenvalues is evaluated,
 the results are
 
-|Eigenvalue | probability|
+|Eigenvalue | Probability|
 |:---:|:---:|
 |$$\lambda_{1}$$ | $$\|0\|^2=0$$|
 |$$\lambda_{2}$$ | $$\|0\|^2=0$$|
