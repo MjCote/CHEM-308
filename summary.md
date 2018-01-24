@@ -27,7 +27,7 @@ where $$\hat{H}$$ is the Hamiltonian operator---the operator corresponding to th
 
 1. The physical meaning of a state vector, or of an operator corresponding to an observable, does _not_ depend on the choice of basis. The system's state, or the value of an observable property, does not change if we adopt a different basis for its expression.
 
-1. \label{basis2} The values of the elements composing a vector or matrix \emph{does} depend on the choice of basis.  This means the vector representing a given state, or the matrix representing a given operator, can take on different forms (can have different elements) depending on the basis chosen. Combining points (\ref{basis1}) and (\ref{basis2}):  The basis choice does not affect the state described by a vector, or the observable property encoded by a matrix, but it does affect the way the vector or matrix is written.
+1. The values of the elements composing a vector or matrix \emph{does} depend on the choice of basis.  This means the vector representing a given state, or the matrix representing a given operator, can take on different forms (can have different elements) depending on the basis chosen. Combining points (\ref{basis1}) and (\ref{basis2}):  The basis choice does not affect the state described by a vector, or the observable property encoded by a matrix, but it does affect the way the vector or matrix is written.
 
 1. The result of an idealized measurement of some observable property of the system will always be one of the eigenvalues of the corresponding operator.  For example, if a particle's energy is measured, the experimental value obtained will be one of the eigenvalues of the energy operator.  An energy value which is not one of the eigenvalues of the energy operator will never be observed.  This is true only of idealized measurements because real measurements may not have sufficient resolution to distinguish eigenvalues with similar values.
 
@@ -40,8 +40,8 @@ combination of momentum eigenvectors,
 $$
 \eqalign{
 \vec{\psi} &= \sum_{j}c_{j}\vec{p_{j}}\\
-\vec{\psi} &= c_{1}\vec{p_{1}} + c_{2}\vec{p_{2}}+ \ldots \\
-\vec{\psi} &= \langle \vec{p_{1}}, \vec{\psi}\rangle \vec{p_{1}} +
+ &= c_{1}\vec{p_{1}} + c_{2}\vec{p_{2}}+ \ldots \\
+ &= \langle \vec{p_{1}}, \vec{\psi}\rangle \vec{p_{1}} +
 \langle \vec{p_{2}}, \vec{\psi}\rangle \vec{p_{2}}+ \ldots
 }$$
 
@@ -55,30 +55,29 @@ $$
 
    Once the particle's state is expressed as a linear combination of momentum eigenvectors, the probability that any particular momentum eigenvalue will be obtained as a result of a momentum measurement can be calculated.  In particular, the probability that a momentum measurement will yield the value $$\lambda_{4}$$ is $$|c_{4}|^2$$.  In general, $$|c_{k}|^2$$ is the probability that a momentum measurement will yield the value $$\lambda_{k}$$.
 
-1. \label{welldef} The result of an individual measurement of an observable property is predictable with certainty only if the vector describing the system's state is an eigenvector of the operator for that observable.  For example, the value $$\lambda_{3}$$ (the third momentum eigenvalue) will be obtained with certainty from an individual momentum measurement only if the particle's state is $$\vec{p_{3}}$$ (the third eigenvector of the momentum operator).  To see that this follows from point (\ref{lc}), notice that if the particle is in the third momentum eigenstate, then
+1. The result of an individual measurement of an observable property is predictable with certainty only if the vector describing the system's state is an eigenvector of the operator for that observable.  For example, the value $$\lambda_{3}$$ (the third momentum eigenvalue) will be obtained with certainty from an individual momentum measurement only if the particle's state is $$\vec{p_{3}}$$ (the third eigenvector of the momentum operator).  To see that this follows from point (\ref{lc}), notice that if the particle is in the third momentum eigenstate, then
 
 $$
-\vec{\psi}=\vec{p_{3}}\]
+\vec{\psi}=\vec{p_{3}}
 $$
 
    In this case the system's state can be expressed as the following linear combination of momentum eigenvectors,
 
 $$
-\vec{\psi} = 0\vec{p_{1}} + 0\vec{p_{2}} + 1\vec{p_{3}} +  0\vec{p_{4}}+\ldots\\
+\vec{\psi} = 0\cdot\vec{p_{1}} + 0\cdot\vec{p_{2}} + 1\cdot\vec{p_{3}} +  0\cdot\vec{p_{4}}+\ldots\\
 $$
 
    Notice that only the third expansion coefficient is nonzero. When the probability of obtaining each of the eigenvalues is evaluated,
 the results are
-\begin{center}
-\begin{tabular}{c c}
-eigenvalue & probability\\ \hline
-$$\lambda_{1}$$ & $$|0|^2=0$$\\
-$$\lambda_{2}$$ & $$|0|^2=0$$\\
-$$\lambda_{3}$$ & $$|1|^2=1$$\\
-$$\lambda_{4}$$ & $$|0|^2=0$$\\
-$$\vdots$$ & $$\vdots$$\\
-\end{tabular}
-\end{center}
+
+|Eigenvalue | probability|
+|:---:|:---:|
+|$$\lambda_{1}$$ | $$|0|^2=0$$|
+|$$\lambda_{2}$$ | $$|0|^2=0$$|
+|$$\lambda_{3}$$ | $$|1|^2=1$$|
+|$$\lambda_{4}$$ | $$|0|^2=0$$|
+|$$\vdots$$ | $$\vdots$$|
+
 Thus, with a probability of one (certainty) the value $$\lambda_{3}$$ will be obtained if a momentum measurement is made.
 
 1. A matrix representing a physical observable is Hermitian. A Hermitian matrix is equal to its complex conjugate transpose.  In other words, a matrix representing a physical observable is unchanged if a combination of two operations is performed on it:  (1) its rows and columns are exchanged, and (2) any occurrences of $$i=\sqrt{-1}$$ are replaced by $$-i=-\sqrt{-1}$$.
