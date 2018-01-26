@@ -47,7 +47,7 @@ combination of momentum eigenvectors,
 
    where $$\vec{p_{j}}$$ is the $$j$$th eigenvector of the momentum operator, and $$c_{j}$$ is the $$j$$th expansion coefficient.  Notice that the expansion coefficients are equal to the inner products of the system's state vector with each of the basis vectors.
 
-If $$\hat{\mathbf{P}}$$ is the momentum operator, and $$\lambda_{j}$$ is the $$j$$th momentum eigenvalue, the eigenvector and eigenvalue equation can be written
+   If $$\hat{\mathbf{P}}$$ is the momentum operator, and $$\lambda_{j}$$ is the $$j$$th momentum eigenvalue, the eigenvector and eigenvalue equation can be written
 
    $$
    \hat{\mathbf{P}}\vec{p_{j}} = \lambda_{j}\vec{p_{j}}
