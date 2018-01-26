@@ -4,6 +4,8 @@
 
 (For a table of contents, visit the [home page](/README.md))
 
+## The Time Dependent Schroedinger Equation
+
 The equation that describes time evolution in quantum mechanics is the time-dependent Schr\"{o}dinger equation (TDSE)
 \begin{equation}\label{tdse}
 \mathcal{H}\Psi(x,t) = i \hbar \frac{\partial}{\partial t}\Psi(x,t)
