@@ -70,8 +70,6 @@ combination of momentum eigenvectors,
    Notice that only the third expansion coefficient is nonzero. When the probability of obtaining each of the eigenvalues is evaluated,
 the results are
 
-   <center>
-
    |Eigenvalue | Probability|
    |:---:|:---:|
    |$$\lambda_{1}$$ | $$\|0\|^2=0$$|
@@ -79,8 +77,6 @@ the results are
    |$$\lambda_{3}$$ | $$\|1\|^2=1$$|
    |$$\lambda_{4}$$ | $$\|0\|^2=0$$|
    |$$\vdots$$ | $$\vdots$$|
-   
-   </center>
    
    Thus, with a probability of one (certainty) the value $$\lambda_{3}$$ will be obtained if a momentum measurement is made.
 
