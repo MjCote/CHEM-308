@@ -10,8 +10,6 @@ This is an upper level chemistry class that builds on students' experience with 
 ### Table of Contents
 
 1. [Vectors and Quantum States](/Vectors-and-Quantum-States.md)
-
    i. [Applications](/Applications.md)
-   
 1. [A Summary of Some of the Key Ideas in Quantum Theory](/summary.md)
 1. [Time Dependent Schroedinger Equation](/TDSE.md)
